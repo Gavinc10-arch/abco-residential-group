@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | ABCO Residential Group</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/png" href="assets/logos/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .error-page { min-height: 80vh; display: flex; align-items: center; justify-content: center; background: #0D1B34; text-align: center; padding: 4rem 2rem; }
+    .error-code { font-family: 'Cormorant Garamond', serif; font-size: 8rem; font-weight: 300; color: rgba(200,160,90,0.2); line-height: 1; }
+    .error-title { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: #fff; margin: 1rem 0; }
+    .error-msg { color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-bottom: 2rem; }
+    .error-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" aria-label="ABCO Residential Group Home">
+        <img src="assets/logos/logo.png" alt="ABCO Residential Group" style="height:38px;width:auto;display:block;" />
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="sell-your-property.html" class="nav-link">Sell Your Property</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="sell-your-property.html" class="btn btn-primary nav-cta">Get In Touch</a>
+    </div>
+  </nav>
+  <main>
+    <div class="error-page">
+      <div>
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-msg">The page you are looking for doesn't exist or has been moved.</p>
+        <div class="error-links">
+          <a href="index.html" class="btn btn-primary">Go Home</a>
+          <a href="sell-your-property.html" class="btn btn-outline">Sell Your Property</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+## Soft Launch Notes Added by ChatGPT
+- LLC wording has been removed because the LLC has not yet been formed.
+- Privacy Policy and Terms of Use placeholder pages have been added.
+- The HTML forms currently open an email draft to contact@abcoresidential.com; before paid campaigns, connect a proper form backend such as Formspree, Basin, HubSpot, or a Vercel serverless function.
+- Meta Pixel, Google Tag Manager and Search Console remain inactive until real IDs are inserted.
+- Replace social URLs once profiles are live.
